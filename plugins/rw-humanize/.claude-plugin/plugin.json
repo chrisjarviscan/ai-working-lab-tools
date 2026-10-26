@@ -1,0 +1,16 @@
+{
+  "name": "rw-humanize",
+  "version": "0.1.2",
+  "description": "Three-layer defense against AI slop in writing: surface tells, craft flaws, and the durable narrative-structure signatures that survive stylistic editing. Consolidates AI Syntax Avoidance, its craft extension, and Chris Jarvis Voice into one skill, backed by a team of adversarial audit agents. Also includes source-accountability, which makes the assistant show exactly which sources it checked before it says it checked everywhere.",
+  "author": {
+    "name": "Realized Worth"
+  },
+  "keywords": [
+    "writing",
+    "editing",
+    "ai-detection",
+    "voice",
+    "thought-leadership",
+    "anti-slop"
+  ]
+}

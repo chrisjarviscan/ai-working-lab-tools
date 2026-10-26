@@ -1,0 +1,14 @@
+{
+  "name": "ai-working-lab-tools",
+  "description": "Writing and research tools for RW Institute's AI Working Labs: catch AI slop and keep source checks honest.",
+  "owner": {
+    "name": "Chris Jarvis, RW Institute"
+  },
+  "plugins": [
+    {
+      "name": "rw-humanize",
+      "source": "./plugins/rw-humanize",
+      "description": "Catch AI slop in writing at three depths (word choice, craft, story structure) and make the assistant show which sources it actually checked before it says it checked everywhere."
+    }
+  ]
+}
