@@ -88,6 +88,40 @@ spring gala." / "Cross-check this partner's details everywhere we keep them."
 
 ---
 
+## In testing: Lab Coach (prototype)
+
+**This one is not finished.** It is a first draft for the 2027 labs and has not been
+tried with participants yet.
+
+**What it is.** A coaching skill that turns your assistant into the lab instructor. It
+starts by asking what is on your plate this week, helps you build one small, useful
+piece of it right away, and then looks at the result with you.
+
+**What it does for you.** You learn by doing your own work. It explains an idea (a
+skill, a connector, a project) only at the moment you run into a reason to want one, in
+a sentence or two, and then gets back to the task.
+
+**Try saying:** "Start my lab." / "Coach me." / "Pick up my lab" (then paste your lab
+notes).
+
+**Consequences and trade-offs**
+
+- **It is untested.** Expect rough edges. Tell us what it got wrong.
+- **It is slower than just asking for the work.** It hands decisions and judgment back
+  to you on purpose. If you are out of time, say "just do it" and it will.
+- **It may not remember your last session.** It gives you short lab notes at the end.
+  Save them and paste them in next time.
+- **Every person's assistant will coach a little differently.** The group sessions are
+  where we compare notes and even that out.
+- **It can't see what your organization allows.** Questions about connectors, plans, and
+  what information you may share go to the group session.
+
+**To try it on claude.ai:** download [`downloads/lab-coach.zip`](downloads/lab-coach.zip)
+and upload it the same way as the two tools above. **In Claude Code:**
+`/plugin install lab-coach@ai-working-lab-tools`.
+
+---
+
 ## How to install
 
 ### Claude on the web or the desktop app (claude.ai)
@@ -130,6 +164,8 @@ Code.
 | `plugins/rw-humanize/skills/anti-ai-slop/` | The writing checker and its four reference guides |
 | `plugins/rw-humanize/skills/source-accountability/` | The source-checking rules |
 | `plugins/rw-humanize/agents/` | Four reviewer agents for the full audit (Claude Code only) |
+| `plugins/lab-coach/` | Prototype coaching skill, with its concept map and build plan |
+| `docs/lab-coach-status.md` | Where the Lab Coach prototype stands and what is still open |
 | `downloads/` | Ready-to-upload zips for claude.ai |
 | `.claude-plugin/marketplace.json` | Lets Claude Code install the plugin from this repo |
 | `CLAUDE.md`, `AGENTS.md` | Instructions an AI reads when you ask it about this repo |
