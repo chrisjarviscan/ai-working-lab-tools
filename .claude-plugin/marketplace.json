@@ -9,6 +9,11 @@
       "name": "rw-humanize",
       "source": "./plugins/rw-humanize",
       "description": "Catch AI slop in writing at three depths (word choice, craft, story structure) and make the assistant show which sources it actually checked before it says it checked everywhere."
+    },
+    {
+      "name": "lab-coach",
+      "source": "./plugins/lab-coach",
+      "description": "PROTOTYPE. A build-first coach for lab participants: start with a real task, get to a working result fast, and explain each concept only when the person runs into it."
     }
   ]
 }

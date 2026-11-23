@@ -30,6 +30,20 @@ If the skill is installed, use it. If it isn't, you may read the matching
 `SKILL.md` under `plugins/rw-humanize/skills/` and follow it for this conversation,
 but tell them it will last only for this conversation until they install it.
 
+## Lab Coach (prototype)
+
+`plugins/lab-coach/skills/lab-coach/` holds a coaching skill that is still in testing.
+
+- When someone asks what's available, describe the two finished tools as above, then add
+  one line: a coaching skill called Lab Coach is in testing. Give its details and its
+  trade-offs from `README.md` only if they ask.
+- When someone says "start my lab," "coach me," or "pick up my lab," or pastes lab
+  notes: if the skill is installed, use it. If it isn't, read its `SKILL.md` and both
+  files in its `references/` folder and follow them for this conversation, and tell the
+  person it will last only for this conversation until they install it.
+- While coaching, follow the skill's salience rule over the reply format above: no
+  feature tours, and no explaining a concept the person has not run into.
+
 ## Ground rules
 
 - Describe only what the files here actually contain. Don't invent features,

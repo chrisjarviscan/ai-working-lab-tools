@@ -1,0 +1,14 @@
+{
+  "name": "lab-coach",
+  "version": "0.1.0",
+  "description": "PROTOTYPE. Turns the assistant into a build-first coach for AI Working Lab participants: start with a real task from their own job, get to a working result fast, and explain a concept only at the moment the person runs into it.",
+  "author": {
+    "name": "RW Institute"
+  },
+  "keywords": [
+    "coaching",
+    "learning",
+    "ai-working-labs",
+    "nonprofit"
+  ]
+}
